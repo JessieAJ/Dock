@@ -1,0 +1,357 @@
+@media (max-width:1199px){
+    .header_content img{
+        width: 520px;
+        height: 385px;
+    }
+    .clients{
+        padding: 40px 20px;
+    }
+    .clients_img{
+        width: 550px;
+        height: 408px;
+    }
+    .navigate{
+        padding: 40px 20px;
+    }
+    .navigate img{
+        width: 550px;
+        height: 408px;
+    }
+    .section_card{
+        padding: 40px 20px;
+
+    }
+    .section_card img{
+        width: 420px;
+    }
+    .understand{
+        padding: 40px 20px;
+    }
+    .understand img{
+        width: 550px;
+        height: 408px;
+    }
+    .discover{
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .discover_info{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .discover_card{
+        height: auto;
+        width: 34%;
+    }
+    .transform{
+        padding-top: 50px;
+    }
+    .uplevel{
+        padding-top: 50px;
+    }
+    .explore{
+        padding-top: 50px;
+    }
+    .footer{
+        padding: 50px 0;
+    }
+    .footer_list{
+        width: 180px;
+    }
+}
+
+
+
+
+
+@media (max-width:991px){
+    .header_info_title{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .header_info_text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .header_content img{
+        width: 370px;
+        height: 310px;
+    }
+    .section_title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .section_text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .clients{
+        margin-top: 25px;
+    }
+    .navigate{
+        flex-direction: column;
+        justify-content: stretch;
+    }
+    .navigate_info{
+        order: -1;
+        width: 90%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .clients{
+        flex-direction: column;
+        justify-content: stretch;
+    }
+    .clients_info{
+        width: 90%;
+        text-align: center; 
+        margin-bottom: 20px;
+    }
+    .clients_text:nth-of-type(1){
+        margin-bottom: 20px;
+    }
+    .section_block{
+        justify-content: stretch;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .section_card{
+        width: 100%;
+        text-align: center;
+    }
+    .section_card img{
+        width: 70%;
+    }
+    .section_card_text{
+        margin-bottom: 30px;
+    }
+    .understand{
+        margin-top: 30px;
+        justify-content: stretch;
+        flex-direction: column;
+    }
+    .understand_info{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .understand_info br{
+        display: none;
+    }
+    .discover_card{
+        width: 45%;
+    }
+    .explore_block {
+        width: 75%;
+    }
+    .get{
+        height: 300px;
+        margin-top: 50px;
+    }
+    .footer_list{
+        width: 130px;
+    }
+    .nav_list{
+        gap: 15px;
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:767px){
+    .footer{
+        padding: 30px 0;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+    }
+    .footer_logo_block{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_logo_block br{
+        display: none;
+    }
+    .get {
+        height: 280px;
+    }
+    .explore_block{
+        width: 95%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .explore_card:nth-of-type(n+4){
+        margin-bottom: 20px;
+    }
+    .discover{
+        flex-wrap: nowrap;
+        justify-content: stretch;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .discover_card{
+        width: 60%;
+    }
+    .understand img{
+        width: 500px;
+        height: 365px;
+    }
+    .navigate img{
+        width: 500px;
+        height: 365px;
+    }
+    .clients_img{
+        width: 500px;
+        height: 365px;
+    }
+    .nav_content{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav_left{
+        margin-bottom: 20px;
+    }
+    .header{
+        height: 730px;
+    }
+    .header_content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header_info{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .header_content img{
+        width: 380px;
+        height: 280px;
+    }
+    .section_title br{
+        display: none;
+    }
+    .section_title{
+        width: 93%;
+        margin: 0 auto 17px;
+    }
+}
+
+
+
+
+
+@media (max-width:575px){
+    .footer_logo_block br{
+        display: block;
+    }
+    .footer_content{
+        justify-content: center;
+    }
+    .footer_list{
+        align-items: center;
+        width: 80%;
+        margin-bottom: 8px;
+    }
+    .get_title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .get_button{
+        padding: 12px 26px;
+    }
+    .get{
+        height: 250px;
+        margin-top: 30px;
+    }
+    .explore_block{
+        width: 80%;
+        justify-content: center;
+    }
+    .discover_card{
+        width: 99%;
+    }
+    .discover_card_pretitle{
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .discover_card_title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .discover_card_text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .discover_info{
+        width: 99%;
+        margin-bottom: 0;
+    }
+    .discover_title{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .understand img{
+        width: 100%;
+        height: 30%;
+    }
+    .section_card img{
+        width: 100%;
+    }
+    .navigate img{
+        width: 100%;
+        height: 30%;
+    }
+    .navigate_info{
+        width: 99%;
+    }
+    .clients_info{
+        width: 99%;
+    }
+    .clients_img{
+        width: 100%;
+        height: 30%;
+    }
+    .section_title{
+        width: 99%;
+    }
+    .header_info{
+        width: 90%;
+    }
+    .header_content{
+        padding: 0 10px;
+    }
+    .header_content img{
+        width: 90%;
+        height: 40%;
+    }
+    .header_info_title{
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .nav_content{
+        padding: 0 10px;
+    }
+    .nav_left{
+        flex-direction: column;
+    }
+    .nav_list{
+        gap: 10px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .header{
+        height: 750px;
+    }
+    .transform{
+        padding-top: 30px;
+    }
+}
